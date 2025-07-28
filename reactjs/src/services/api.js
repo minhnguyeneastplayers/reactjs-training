@@ -3,7 +3,7 @@ import axios from "axios";
 const APP_ID = "36918db0649c77a40c21effa3821b49a";
 
 const api = axios.create({
-  baseURL: "https://openweathermap.org/data/3.0",
+  baseURL: "https://api.openweathermap.org/data/3.0",
   timeout: 10000,
   headers: {
     "Content-Type": "application/json",
