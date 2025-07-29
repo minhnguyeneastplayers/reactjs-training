@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../Weather.module.css";
+import styles from "./WeatherMain.module.css";
 import WeatherDetails from "./WeatherStats";
 
 const WeatherMain = () => (

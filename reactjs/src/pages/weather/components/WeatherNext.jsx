@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../Weather.module.css";
+import styles from "./WeatherNext.module.css";
 import icCalendar from "../../../assets/ic_calendar.png";
 
 const nextList = [

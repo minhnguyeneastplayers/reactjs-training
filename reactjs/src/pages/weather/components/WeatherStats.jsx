@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../Weather.module.css";
+import styles from "./WeatherStats.module.css";
 import icHumidity from "../../../assets/ic_humidity.png";
 import icWind from "../../../assets/ic_wind.png";
 import icRain from "../../../assets/ic_rain.png";

@@ -1,0 +1,55 @@
+.hero {
+  padding: 100px;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 300px;
+  align-items: center;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 30px;
+  line-height: 1.1;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.contactBtn {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contactBtn:hover {
+  background-color: #555;
+  transform: translateY(-2px);
+}
+
+ 

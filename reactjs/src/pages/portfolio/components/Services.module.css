@@ -1,0 +1,45 @@
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+  margin-top: 60px;
+}
+
+.serviceCard {
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.serviceCard:hover {
+  transform: translateY(-10px);
+}
+
+.iconContainer {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.productIcon,
+.visualIcon,
+.artIcon {
+  width: 124px;
+  height: 124px;
+}
+
+.serviceTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.serviceDescription {
+  color: #666;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+ 

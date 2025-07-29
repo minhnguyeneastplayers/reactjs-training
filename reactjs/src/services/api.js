@@ -1,6 +1,7 @@
 import axios from "axios";
+import { createWeatherResponse } from "../models/weather/WeatherResponse.js";
 
-const APP_ID = "36918db0649c77a40c21effa3821b49a";
+const APP_ID = "36918db0649c77a40c21effa3821b49a....";
 
 const api = axios.create({
   baseURL: "https://api.openweathermap.org/data/3.0",
@@ -20,7 +21,7 @@ export const getWeatherOneCall = async ({ lat, lon }) => {
   const res = await api.get("/onecall", {
     params: { lat, lon },
   });
-  return res.data;
+  return createWeatherResponse(res.data);
 };
 
 export default api; 

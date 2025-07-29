@@ -1,0 +1,35 @@
+.clientLogos {
+  padding: 0;
+}
+
+.logosGrid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.logoItem {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.google,
+.nike,
+.samsung,
+.apple,
+.adidas {
+  max-width: 110px;
+  max-height: 40px;
+  object-fit: contain;
+}
+
+.google:hover,
+.nike:hover,
+.samsung:hover,
+.apple:hover,
+.adidas:hover {
+  transform: scale(1.05);
+}
